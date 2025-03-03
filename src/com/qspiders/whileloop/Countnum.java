@@ -1,10 +1,10 @@
 package com.qspiders.whileloop;
 
 import java.util.Scanner;
-
-public class countnum 
+ 
+public class Countnum 
 {
-
+	//count the digits present in given number
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
@@ -14,9 +14,8 @@ public class countnum
 		while(num>0)
 		{
 			num=num/10;
-			count++;
+			count++; 
 		}
 		System.out.println("total count is :"+count);
 	}
-
 }
